@@ -1,0 +1,14 @@
+<%-include('../partials/header')%>
+<div class="container col-lg-6">
+    <div  style="border-radius: 10px;box-shadow:2px 2px 15px 0 rgba(46,61,73,.4)" class="jumbotron" style="margin-top: 50px;">
+<div class="h3 text-center">Upload Image</div>
+<br>
+<form method="POST" action="/image"  enctype="multipart/form-data">
+    <div class="d-flex justify-content-around">
+    <input type="file" name="image" accept="image/*" required>
+    <button class="btn btn-primary">Upload</button>
+    </div>
+</form>
+</div>
+</div>
+<%-include('../partials/footer')%>

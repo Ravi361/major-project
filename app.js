@@ -4,19 +4,19 @@ const cloudinary = require('cloudinary').v2;
 const { CloudinaryStorage } = require('multer-storage-cloudinary');
 const multer = require('multer');
 cloudinary.config({
-    cloud_name:'dye483mxr',
-    api_key:974214917218457,
-    api_secret:'MhfvkFjHP1ClvYuwbjn4mIF5BFw'
+    cloud_name:,
+    api_key:,
+    api_secret:
 })
 const EveryPixel = require('everypixel');
 const api = new EveryPixel({
-  "username": "ohh4C7sqUNmoqFCrPEWUkuka",
-  "password": "Qwoa1gtN8kCBUfLDLi2Vh7K3fO4h8WzoDIexfqes4gD2L2kH"
+  "username": ,
+  "password": 
 });
 const { Configuration, OpenAIApi } = require('openai');
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: ,
 });
 const openai = new OpenAIApi(configuration);
 const storage = new CloudinaryStorage({
